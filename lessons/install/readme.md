@@ -55,7 +55,7 @@ In the Terminal:
 
 `python3 --version`
 
->> Python 3.7.4
+>> Python 3.7.5 (originally had 3.7.4 on my PC but now that I have a Mac, version has been updated)
 
  
 
