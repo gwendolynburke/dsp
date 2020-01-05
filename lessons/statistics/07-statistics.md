@@ -86,14 +86,26 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 5/11 or .45
+>>##### Work shown below:
+p(A|B) = p(A)xp(B|A)/p(B)
+p(identical twin|twin brother) = p(identical twin) x p(twin brother|identical twin) / p(twin brother)
+p(identical twin) = 1/300
+p(twin brother|identical twin) = 1/2
+p(twin brother) = p(identical twins & twin brother) + p(fraternal twins & twin brother)
+p(A&B) = p(A)xp(B|A)
+p(identical twins & twin brother) = p(identical twins) x p(brothers|identical) = 1/300 x 1/2
+p(fraternal twins & twin brother) = p(fraternal twins) x p(brothers|fraternal) = 1/125 x 1/4
+p(twin brother) = (1/300 x 1/2) + (1/125 x 1/4) = 11/3000
+p(identical twin|twin brother) = 1/300 x 1/2 / 11/3000 = 5/11 or .45 
+
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist and Bayesian statistics are different in the way they interpet the concept of probability. Frequentist statistics defines probability as long-term frequencies of events; only repeatable random events can have probabilities, and hypotheses NEVER have probabilities. On the other hand, Bayesian statistics defines probability much more generally as degrees of belief and degrees of logical support. Bayesian statistics uses probabilities for representing uncertainty in any hypothesis or event. Another way to define the comparison is that frequentist approaches use only the likelihood (evidence provided by data) and Bayesian approaches use the prior (probability something is true before the data is considered).
 
 ---
 
