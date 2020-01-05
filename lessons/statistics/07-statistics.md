@@ -88,16 +88,16 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> 5/11 or .45
 >>##### Work shown below:
-p(A|B) = p(A)xp(B|A)/p(B)
-p(identical twin|twin brother) = p(identical twin) x p(twin brother|identical twin) / p(twin brother)
-p(identical twin) = 1/300
-p(twin brother|identical twin) = 1/2
-p(twin brother) = p(identical twins & twin brother) + p(fraternal twins & twin brother)
-p(A&B) = p(A)xp(B|A)
-p(identical twins & twin brother) = p(identical twins) x p(brothers|identical) = 1/300 x 1/2
-p(fraternal twins & twin brother) = p(fraternal twins) x p(brothers|fraternal) = 1/125 x 1/4
-p(twin brother) = (1/300 x 1/2) + (1/125 x 1/4) = 11/3000
-p(identical twin|twin brother) = 1/300 x 1/2 / 11/3000 = 5/11 or .45 
+>>p(A|B) = p(A)xp(B|A)/p(B)
+>>p(identical twin|twin brother) = p(identical twin) x p(twin brother|identical twin) / p(twin brother)
+>>p(identical twin) = 1/300
+>>p(twin brother|identical twin) = 1/2
+>>p(twin brother) = p(identical twins & twin brother) + p(fraternal twins & twin brother)
+>>p(A&B) = p(A)xp(B|A)
+>>p(identical twins & twin brother) = p(identical twins) x p(brothers|identical) = 1/300 x 1/2
+>>p(fraternal twins & twin brother) = p(fraternal twins) x p(brothers|fraternal) = 1/125 x 1/4
+>>p(twin brother) = (1/300 x 1/2) + (1/125 x 1/4) = 11/3000
+>>p(identical twin|twin brother) = 1/300 x 1/2 / 11/3000 = 5/11 or .45 
 
 
 ---
