@@ -33,7 +33,7 @@ thinkplot.Config(xlabel='Number of Children', ylabel = 'PMF')
 plt.savefig('actual.png')
 ```
 
-![image](/Users/gwendolynburke/prework/ThinkStats2/code/actual.png)
+![Actual Distribution](actual.png)
 
 ```python
 def BiasPmf(pmf, label):
