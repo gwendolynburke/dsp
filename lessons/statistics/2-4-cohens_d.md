@@ -5,8 +5,7 @@ Using the variable totalwgt_lb, investigate whether first babies are lighter or 
 
 Compute Cohen’s effect size to quantify the difference between the groups. How does it compare to the difference in pregnancy length?  
 
-## Answer
-
+### Answer
 First babies are lighter than others on average by about 0.12 lbs. Cohen's effect size is -0.089, meaning the difference in mean weights in lbs of first babies and others is -0.089 standard deviations. The difference in weight is greater than the difference in pregnancy length.
 
 ```python
