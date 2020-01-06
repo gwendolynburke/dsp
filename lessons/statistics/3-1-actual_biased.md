@@ -50,10 +50,11 @@ thinkplot.Pmf(biased_pmf)
 thinkplot.Config(xlabel='Number of Children', ylabel = 'PMF')
 plt.savefig('biased.png')
 ```
-![image](/Users/gwendolynburke/prework/ThinkStats2/code/biased.png)
+![Biased Distribution](biased.png)
 
 ### Computed Means
 ```python
-print("Actual mean is str(pmf.Mean()).")
-print("Biased mean is str(biased_pmf.Mean()).")
+print(pmf.Mean())
+print(biased_pmf.Mean())
 ```
+Actual mean is 1.024 and biased mean is 2.404
